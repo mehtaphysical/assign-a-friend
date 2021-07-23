@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assign a Friend</title>
+  </head>
+  <body>
+    <h1>Assign a Friend</h1>
+    <button id="sign-in">Sign in with NEAR</button>
+
+    <form id="assignment-form">
+      <label>Friend to assign</label>
+      <input id="accountId" name="accountId" type="text" />
+
+      <label>Amount to pay</label>
+      <input id="amount" name="amount" type="number" />
+
+      <label>Assignment Text</label>
+      <textarea id="text" name="text"></textarea>
+
+      <button>Create Assignment</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/near-api-js@0.42.0/dist/near-api-js.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

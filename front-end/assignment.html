@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+  </head>
+  <body>
+    <h1>Assignment</h1>
+    <h2 id="assigner-id"></h2>
+    <p><span id="assignee-id"></span> is assigned the following task:</p>
+    <p id="text"></p>
+    <p>They will be paid <span id="amount"></span></p>
+
+    <form id="complete-assignment">
+      <textarea name="answer"></textarea>
+      <button>Complete Assignment</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/near-api-js@0.42.0/dist/near-api-js.min.js"></script>
+    <script src="./js/assignment.js"></script>
+  </body>
+</html>
